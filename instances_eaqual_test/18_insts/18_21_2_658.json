@@ -1,0 +1,187 @@
+{
+    "available_vessels": {
+        "PSV_1": {
+            "return_time": "placeholder"
+        },
+        "PSV_2": {
+            "return_time": "placeholder"
+        },
+        "SPOT": {
+            "return_time": "placeholder"
+        }
+    },
+    "orders": {
+        "0": {
+            "inst": "TRB",
+            "type": 0,
+            "inst_id": 2,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 20
+        },
+        "1": {
+            "inst": "TRB",
+            "type": 2,
+            "inst_id": 2,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 21
+        },
+        "2": {
+            "inst": "TRC",
+            "type": 0,
+            "inst_id": 3,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 14
+        },
+        "3": {
+            "inst": "TRC",
+            "type": 1,
+            "inst_id": 3,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 7
+        },
+        "4": {
+            "inst": "CPR",
+            "type": 0,
+            "inst_id": 4,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 22
+        },
+        "5": {
+            "inst": "SEN",
+            "type": 1,
+            "inst_id": 5,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 12
+        },
+        "6": {
+            "inst": "SDO",
+            "type": 1,
+            "inst_id": 6,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 9
+        },
+        "7": {
+            "inst": "SEQ",
+            "type": 2,
+            "inst_id": 7,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 24
+        },
+        "8": {
+            "inst": "OSE",
+            "type": 1,
+            "inst_id": 8,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 14
+        },
+        "9": {
+            "inst": "OSC",
+            "type": 2,
+            "inst_id": 10,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 14
+        },
+        "10": {
+            "inst": "SSC",
+            "type": 0,
+            "inst_id": 12,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 7
+        },
+        "11": {
+            "inst": "DSD",
+            "type": 0,
+            "inst_id": 14,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 15
+        },
+        "12": {
+            "inst": "VMO",
+            "type": 0,
+            "inst_id": 16,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 20
+        },
+        "13": {
+            "inst": "VFB",
+            "type": 0,
+            "inst_id": 18,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 27
+        },
+        "14": {
+            "inst": "WEP",
+            "type": 1,
+            "inst_id": 19,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 11
+        },
+        "15": {
+            "inst": "STA",
+            "type": 0,
+            "inst_id": 21,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 20
+        },
+        "16": {
+            "inst": "STB",
+            "type": 1,
+            "inst_id": 22,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 10
+        },
+        "17": {
+            "inst": "STC",
+            "type": 1,
+            "inst_id": 23,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 14
+        },
+        "18": {
+            "inst": "GFC",
+            "type": 2,
+            "inst_id": 26,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 28
+        },
+        "19": {
+            "inst": "SOD",
+            "type": 0,
+            "inst_id": 27,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 22
+        },
+        "20": {
+            "inst": "SOD",
+            "type": 1,
+            "inst_id": 27,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 11
+        }
+    },
+    "planning_period_hours": 56.0,
+    "discretization_parameter": 4,
+    "random_seed": 72,
+    "start_day": 658
+}

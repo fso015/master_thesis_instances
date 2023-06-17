@@ -1,0 +1,163 @@
+{
+    "available_vessels": {
+        "PSV_1": {
+            "return_time": "placeholder"
+        },
+        "PSV_2": {
+            "return_time": "placeholder"
+        },
+        "SPOT": {
+            "return_time": "placeholder"
+        }
+    },
+    "orders": {
+        "0": {
+            "inst": "SEN",
+            "type": 0,
+            "inst_id": 5,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 23
+        },
+        "1": {
+            "inst": "KVB",
+            "type": 0,
+            "inst_id": 15,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 27
+        },
+        "2": {
+            "inst": "TRO",
+            "type": 2,
+            "inst_id": 1,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 28
+        },
+        "3": {
+            "inst": "SEQ",
+            "type": 1,
+            "inst_id": 7,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 12
+        },
+        "4": {
+            "inst": "STC",
+            "type": 0,
+            "inst_id": 23,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 27
+        },
+        "5": {
+            "inst": "OSC",
+            "type": 0,
+            "inst_id": 10,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 14
+        },
+        "6": {
+            "inst": "OSC",
+            "type": 1,
+            "inst_id": 10,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 7
+        },
+        "7": {
+            "inst": "GFA",
+            "type": 0,
+            "inst_id": 24,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 20
+        },
+        "8": {
+            "inst": "DSD",
+            "type": 1,
+            "inst_id": 14,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 8
+        },
+        "9": {
+            "inst": "SEN",
+            "type": 1,
+            "inst_id": 5,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 12
+        },
+        "10": {
+            "inst": "WEL",
+            "type": 0,
+            "inst_id": 17,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 22
+        },
+        "11": {
+            "inst": "WEL",
+            "type": 1,
+            "inst_id": 17,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 11
+        },
+        "12": {
+            "inst": "WEP",
+            "type": 2,
+            "inst_id": 19,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 21
+        },
+        "13": {
+            "inst": "HUL",
+            "type": 0,
+            "inst_id": 20,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 21
+        },
+        "14": {
+            "inst": "STA",
+            "type": 1,
+            "inst_id": 21,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 10
+        },
+        "15": {
+            "inst": "STB",
+            "type": 2,
+            "inst_id": 22,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 21
+        },
+        "16": {
+            "inst": "GFC",
+            "type": 1,
+            "inst_id": 26,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 14
+        },
+        "17": {
+            "inst": "SOD",
+            "type": 2,
+            "inst_id": 27,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 23
+        }
+    },
+    "planning_period_hours": 56.0,
+    "discretization_parameter": 4,
+    "random_seed": 446,
+    "start_day": 444
+}

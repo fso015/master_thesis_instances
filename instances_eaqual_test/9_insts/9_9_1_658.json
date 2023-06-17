@@ -1,0 +1,88 @@
+{
+    "available_vessels": {
+        "PSV_1": {
+            "return_time": "placeholder"
+        },
+        "SPOT": {
+            "return_time": "placeholder"
+        }
+    },
+    "orders": {
+        "0": {
+            "inst": "TRC",
+            "type": 0,
+            "inst_id": 3,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 14
+        },
+        "1": {
+            "inst": "CPR",
+            "type": 0,
+            "inst_id": 4,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 22
+        },
+        "2": {
+            "inst": "SDO",
+            "type": 2,
+            "inst_id": 6,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 19
+        },
+        "3": {
+            "inst": "SEQ",
+            "type": 1,
+            "inst_id": 7,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 12
+        },
+        "4": {
+            "inst": "OSO",
+            "type": 0,
+            "inst_id": 11,
+            "mandatory": "True",
+            "transport": "delivery",
+            "size": 20
+        },
+        "5": {
+            "inst": "DSD",
+            "type": 1,
+            "inst_id": 14,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 8
+        },
+        "6": {
+            "inst": "VMO",
+            "type": 2,
+            "inst_id": 16,
+            "mandatory": "False",
+            "transport": "pickup",
+            "size": 21
+        },
+        "7": {
+            "inst": "GFA",
+            "type": 1,
+            "inst_id": 24,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 10
+        },
+        "8": {
+            "inst": "GFB",
+            "type": 1,
+            "inst_id": 25,
+            "mandatory": "False",
+            "transport": "delivery",
+            "size": 10
+        }
+    },
+    "planning_period_hours": 56.0,
+    "discretization_parameter": 4,
+    "random_seed": 786,
+    "start_day": 658
+}
